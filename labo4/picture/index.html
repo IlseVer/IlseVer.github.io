@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="nl" >
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h1>The picture element</h1>
+
+<p>Resize the browser window to load different images.</p>
+<!--<img src="images/disney.jpeg" alt="disney" />-->
+<picture>
+    <source media="(min-width:650px)" srcset="images/grand-finale-disney.jpg">
+    <source media="(min-width:365px)" srcset="images/mickey.jpg">
+    <img src="images/iceage.jpg" alt="Flowers"/>
+</picture>
+
+
+</body>
+</html>
