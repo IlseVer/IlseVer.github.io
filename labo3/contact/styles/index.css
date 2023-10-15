@@ -1,0 +1,9 @@
+table{
+    width:80%;
+    border-collapse: collapse; /*--Zorgt dat de randen van de cellen samenvallen--*/
+}
+
+th, td, tr{
+    border:1px solid black;
+
+}
