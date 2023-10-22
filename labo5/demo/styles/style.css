@@ -1,0 +1,28 @@
+h1, h2{
+    color:red;
+}
+/* commentaar */
+
+/*Class*/
+.styleBlue{
+    color:blue;
+    font-size: 4em;
+}
+
+/*ID*/
+#opmaak{
+    color: yellow;
+}
+/*Verschil tussen class en ID
+een klasse mag je meerdere keren gebruiken in je html, een ID-name mag je maar 1 keer gebruiken
+*/
+
+section>h1{ /*  section h1 = h1moet in de tak van section zitten
+                section>h1 = h1 moet onmiddelijk onder section vallen*/
+    color: green;
+}
+
+section>span>h1{/*h1 moet een kind zin van span en span moet een kind zijn van section*/
+
+}
+

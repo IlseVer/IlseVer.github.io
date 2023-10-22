@@ -1,0 +1,34 @@
+h1,h2,h3{
+    font-family: Arial, "Times New Roman",sans-serif;
+}
+
+h1{
+    font-size: 1.8em;
+}
+
+h2{
+    font-size:1.5em;
+}
+
+h3{
+    font-size:1.4em;
+}
+
+p{
+    font-family: "Times New Roman",sans-serif;
+    font-size: 1.2em;
+}
+
+/*Ik gebruik class en de naam hoofding. Indien er nog tekst in de toekomst bij zou komen is dit gemakkellijk*/
+.hoofding1{
+    color:red;
+}
+
+.hoofding2{
+    color: green;
+}
+
+.hoofding3{
+    color:blue;
+}
+

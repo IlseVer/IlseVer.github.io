@@ -1,0 +1,10 @@
+.menu {
+    list-style-type: none;
+}
+.menu li{
+    background-color: black;
+    color:white;
+    border:2px solid white;
+    padding:2px;
+    width: 50px;
+}
