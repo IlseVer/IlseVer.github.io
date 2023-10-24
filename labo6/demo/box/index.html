@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Box</title>
+  <style>
+    body{
+      background-color: deepskyblue;
+      margin-top:0;
+        font-size: 5em;
+        border:2px solid red;
+        width: 95%;/* door een % te nemen, als je verkleind gaat het mee, NOOIT geen PX gebruiken*/
+        margin-left:auto;
+        margin-right:auto;
+        /*
+        UITZONDERING/
+        border, padding en margin worden nooit doorgegeven aan de kinderen
+        alle andere elementen wel*/
+    }
+    h1{
+      background-color: red;
+      width: 500px;
+    /*  padding-top:20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      padding-left: 40px;*/
+      border: 4px solid black;
+      padding:20px 20px 20px 50px; /* top-rechts-bottom-links*/
+
+    /*padding: 50px 100px; indien je er 2 schrijft: top/bottom   en left/right*/
+
+     /* margin-left:200px;*/
+      margin-top:0;
+      /* Blokken mooi in het midden plaatsen. Berekent automatisch de marge links en rechts, staat nu mooi in het midden.*/
+      margin-left: auto;
+      margin-right: auto;
+    }
+    p{
+      background-color: green;
+      margin-bottom: 0;
+    }
+
+    /*img is een inline-element, dus eerst er een blok-element van maken om het dan mooi in het midden te kunnen plaatsen*/
+    /*maak van het inline-element een blok-element en zet het mooi in het midden*/
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+  </style>
+</head>
+<body>
+<h1>VIVES</h1>
+<img src="images/bloem.jpg" alt="bloem">
+<p>Vives heeft verschillende campussen</p>
+
+</body>
+</html>

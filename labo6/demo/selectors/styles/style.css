@@ -1,0 +1,37 @@
+body{
+    background-color: yellow;
+    font-size:1em;
+}
+
+/*element selector*/
+h1{
+    font-size: 4em;
+    background-color: red;
+}
+/*pseudo-elementsecector: je kan specifiek iets binnen een element opmaken*/
+p:first-letter{
+    font-size: 5em;
+    color:red;
+}
+/*p:first-line{
+    text-decoration: underline;
+}*/
+/*h1:before{
+          ik wil iets net voor het element
+/*}*/
+
+/*pseudo-class selector  (op basis van het gedrag dat je opmaak voorziet)*/
+
+a:link{  /*geen hyperlink ondelijnen*/
+    text-decoration: none;
+}
+li>a:hover{  /*als je over de link hovert, moet het onderlijnd worden enkel als het een kind is van li*/
+    text-decoration: underline;
+}
+li:nth-child(2+1) {
+    color: blue;
+}
+/* ik wil dat het 2e element een bepaalde opmaak krijgt--> li:nth-child(2),
+alle oneven moet een blauwe kleur krijgen--> li:nth-child(2+1),
+alle even moeten een blauwe kleur krijgen -->li:nth-child(2n)*/
+
