@@ -1,0 +1,20 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
+}
+
+ul{
+    list-style-image: url("../images/unchecked-checkbox.png");
+}
+
+.checked{
+    list-style-image: url("../images/checkbox.png");
+}
+
+li{
+    padding: 10px;
+}
+
+

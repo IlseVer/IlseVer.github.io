@@ -1,0 +1,13 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
+
+a:before{
+    content:'';
+    background-image: url("../images/iconlink.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 20px;
+}
+
