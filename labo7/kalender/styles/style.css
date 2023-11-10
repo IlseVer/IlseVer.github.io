@@ -1,0 +1,40 @@
+table {
+    margin: 0 auto;
+    font-size: 1.1em;
+    border: 3px solid black;
+    width: 250px;
+    height: 200px;
+    border-collapse: collapse; /*laat de border-lijnen samenvallen*/
+}
+
+table td {
+    border: 1px dotted black;
+}
+
+td:first-child, td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+table thead tr th {
+    background-color: rgb(170, 170, 200);
+    font-size: 1.2em;
+}
+
+body table tbody tr:first-child td {
+    color: rgb(200, 190, 240);
+    background-color: rgb(37, 37, 70);
+}
+
+tbody tr:last-child td:nth-last-child(-n+3) {
+    background-color: lightgrey;
+    color: darkgrey;
+}
+
+tbody tr:nth-child(2) td:first-child {
+    background-color: lightgrey;
+    color: darkgrey;
+}
+
+tbody tr:nth-child(4) td:nth-child(3) {
+    background-color: rgb(250, 120, 120);
+}

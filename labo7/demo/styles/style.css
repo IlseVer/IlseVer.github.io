@@ -1,0 +1,17 @@
+header.hoofd h1{ /*0012*/
+    color: gray;
+}
+header h1{  /* specifiteit van dit element is 0002*/
+    color: beige;  /* cursus pag 32*/
+}
+h1 { /* specifiteit van dit element is 0001*/
+    color: red;
+}
+/*bij conflict : de laatste wint, wel rekening houden met de specifiteit*/
+h1 {
+    color: blue;
+}
+
+header.hoofd h1{ /*0012*/
+    color: gray;
+}
