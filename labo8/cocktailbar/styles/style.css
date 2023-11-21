@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    padding:0;
     width: 95%;
     font-family: Verdana, Helvetica, Arial, sans-serif;
     font-size: 1.2em;
@@ -68,21 +69,17 @@ footer {
 
 #guarantee {
     margin: 30px;
-    padding: 20px;
+    padding: 20px 20px 20px 80px;
     color: #444444;
     background-color: #a7cece;
     border: 2px dotted white;
     font-style: italic;
+    background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
 }
 
 #guarantee a {
     color: #444444;
-}
-
-#guarantee {
-    background-image: url("../images/background.gif");
-    background-repeat: no-repeat;
-    padding-left: 80px;
 }
 
 .buddha {
