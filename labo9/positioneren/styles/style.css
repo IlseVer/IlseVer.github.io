@@ -1,0 +1,32 @@
+body {
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+main {
+    width: 75%;
+    margin: 0 auto;
+}
+
+article {
+    font-size: 1.25em;
+    margin: 0 10px 10px 10px;
+    border: 1px solid black;
+    padding: 10px;
+    min-height: 240px;
+}
+
+article:nth-child(2n) img {
+    padding-left: 10px;
+    padding-right: 0;
+    float: right;
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+article img {
+    float: left;
+    padding-right: 10px;
+}
