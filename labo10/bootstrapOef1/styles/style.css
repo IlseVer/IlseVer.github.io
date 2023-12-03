@@ -1,0 +1,13 @@
+div {
+    height: 150px;
+    border: solid white 8px;
+    box-sizing: border-box;
+}
+
+.light {
+    background-color: lightgray
+}
+
+.dark {
+    background-color: darkgrey;
+}
