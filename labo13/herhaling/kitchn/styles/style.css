@@ -1,0 +1,192 @@
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    border-bottom: 2px solid black;
+    color: black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 150%;
+    margin-bottom: 1em;
+}
+
+.header img {
+    height: 50px;
+}
+
+.header {
+    margin: 0 auto;
+    border-bottom: 1px solid #ebe8e8;
+}
+
+.header, nav {
+    width: 600px;
+}
+
+nav {
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    list-style: none;
+    margin:0;
+}
+
+nav ul li:last-child {
+    border: hidden;
+}
+
+nav ul li {
+    border-right: 1px solid #ebe8e8;
+    text-align: center;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5b4746;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #fff100;
+}
+
+.main header {
+    height: 500px;
+    background-image: url("../images/headerimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid #ebe8e8;
+    display: flex;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main header p {
+    text-shadow: 2px 2px 2px #8D99AE;
+}
+
+.recepten {
+    width: 600px;
+    margin: 50px auto 0 auto;
+}
+
+.artikel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    padding-top: 1em;
+    margin-right: 1.5em;
+}
+
+.item {
+    border-top: 1px solid #ddd;
+}
+
+.item p:first-child {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #ff4d56;
+    letter-spacing: 1px;
+}
+
+.artikel h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.artikel p:nth-of-type(2) {
+    line-height: 2;
+    color: #666;
+}
+
+.artikel footer span:first-child {
+    padding-right: 10px;
+    border-right: 1px solid #ebe8e8;
+    font-style: italic;
+}
+
+.artikel footer span:nth-of-type(2) {
+    color: #666;
+    padding-left: 10px;
+}
+
+.fotos {
+    margin: 50px auto 0 auto;
+    width: 600px;
+}
+
+.container div {
+    margin-bottom: 25px;
+}
+
+footer {
+    width: 100%;
+    border-top: 1px solid #ebe8e8;
+    line-height: 2em;
+}
+
+footer #left {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer #right {
+    display: inline-block;
+    width: 50%;
+    float: right;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 770px) {
+    .header, nav, .recepten, .fotos {
+        width: 750px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .header, nav, .recepten, .fotos {
+        width: 980px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .main header {
+        font-size: 5em;
+    }
+}

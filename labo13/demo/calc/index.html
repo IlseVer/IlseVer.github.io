@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Calc</title>
+<style>
+    /*  First of all: CSS variables can have a global or local scope.
+            Global variables can be accessed/used through the entire document, while local variables can be used only inside the selector where it is declared.
+          To create a variable with global scope, declare it inside the :root selector. The :root selector matches the document's root element.
+          To create a variable with local scope, declare it inside the selector that is going to use it.*/
+    /*  globale variabele definieren:     begint altijd met 2 --    */
+    :root {
+        --nav: #1e90ff;
+        --article: #ff9000 ;
+        --widthNav: 20%;
+    }
+    body{
+        display: flex;
+        margin:0;
+    }
+
+    nav{
+        background-color: cornflowerblue;
+        /*flex-basis: 20%;*/
+       flex-basis:var(--widthNav);    /*ipv een vaste waarde hierboven, gebruik je de variabele*/
+    }
+
+    article{
+        background-color: mediumseagreen;
+        padding: 30px;
+        box-sizing: border-box;
+        /*flex-basis: 80%;   *//*// mag ook width, maar in combinatie gebruik je beter flex-basis*/
+        flex-basis: calc(100% - var(--widthNav));   /*indien je de nav groter maakt, wordt automatisch de grootte berekent van article*/
+        /*calc --> hoeft niet dezelfde eenheid te hebben*/
+    }
+</style>
+</head>
+<body>
+<nav>
+    <h1>Nav</h1>
+</nav>
+<article>
+    <h1>Article</h1>
+</article>
+</body>
+</html>
