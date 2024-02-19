@@ -1,0 +1,26 @@
+
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+}
+#container{
+    display: flex;
+    align-content: center;
+}
+#container section:first-child{
+    background-color: lightyellow;
+    margin-right:25px;
+}
+#container section:nth-child(2){
+    background-color: aliceblue;
+}
+section{
+    padding:15px;
+    width: 250px;
+}
