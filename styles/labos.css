@@ -1,0 +1,16 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.back:visited {
+    color: unset;
+}
