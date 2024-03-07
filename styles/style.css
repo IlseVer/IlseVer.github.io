@@ -13,14 +13,18 @@ a:hover{
     display: flex;
     align-content: center;
 }
-#container section:first-child{
+#container .labolinks:first-child{
     background-color: lightyellow;
     margin-right:25px;
 }
-#container section:nth-child(2){
+#container .labolinks:nth-child(2){
     background-color: aliceblue;
 }
-section{
+.labolinks{
     padding:15px;
     width: 250px;
+}
+.vraag{
+    font-weight: bold;
+    text-decoration: underline;
 }

@@ -1,0 +1,35 @@
+body {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.colorDemo {
+    width: 100px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(128, 255, 128);
+}
+
+#container {
+    margin-top: 50px;
+    padding: 10px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    border: 4px solid gray;
+    border-radius: 10px;
+    justify-content: space-around
+}
+
+#sliders {
+    width: 250px;
+}
+
+#blokje {
+    width: 100px;
+}
+
+#red, #green, #blue {
+    text-align: right;
+}
