@@ -4,6 +4,7 @@ const setup = () => {
 }
 const omzettenInSpaties = () => {
     let txtInput = document.getElementById("txtInput"); //waarde input-element ophalen is met value
+    let output = document.getElementById("output"); //output op webpagina
     let tekst = txtInput.value;
     let tekstMetSpaties = "";
 
@@ -12,6 +13,7 @@ const omzettenInSpaties = () => {
         tekstMetSpaties += " ";
     }
     console.log(tekstMetSpaties);
+    output.textContent = tekstMetSpaties;
 }
 
 window.addEventListener("load", setup);
