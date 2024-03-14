@@ -1,11 +1,11 @@
 const setup = () => {
     let btnZoeken = document.getElementById("btnZoeken");
-    let txtAantal = document.getElementById("txtAantal");
     btnZoeken.addEventListener("click", zoeken);
 }
 const zoeken = () => {
     let txtTekst = document.getElementById("txtTekst");
     let tekst = txtTekst.value.toLowerCase();
+    let txtAantal = document.getElementById("txtAantal");
 
     let txtZoekTekst = document.getElementById("txtZoekTekst");
     let zoekTekst = txtZoekTekst.value.toLowerCase();
