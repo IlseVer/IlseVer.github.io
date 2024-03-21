@@ -1,0 +1,29 @@
+body {
+    width: 960px;
+    margin-top: 50px;
+}
+
+form {
+    border: 1px solid #6c757d;
+    border-radius: 3px;
+    padding: 15px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.opties {
+    display: flex;
+    margin-top: 5px;
+}
+
+.opties label, #optionLand {
+    padding-right: 3px;
+}
+
+#optionLand {
+    margin-top: 5px;
+}
+
+#btnResultaat {
+    margin-top: 10px;
+}

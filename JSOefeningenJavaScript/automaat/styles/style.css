@@ -1,0 +1,7 @@
+body{
+    max-width: 760px;
+    margin: 0 auto;
+}
+input[type="number"] {
+    text-align: right;
+}
