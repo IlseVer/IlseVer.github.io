@@ -6,6 +6,7 @@ const setup = () => {
 
 const changeLogo = () => {
     let photo = document.getElementById("imgPhoto");
+
     photo.src = "./images/cats.jpg";
     photo.alt = "cat";
     photo.className = "sizePhoto";
