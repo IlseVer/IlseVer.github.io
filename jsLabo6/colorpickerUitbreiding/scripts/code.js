@@ -38,10 +38,7 @@ const save = () => {
 
     maakDiv.addEventListener("click", zetKleurOver);
 }
-const verwijder = (event) => {
-    console.log("target is " + event.target.nodeName + ", currentTarget is " + event.currentTarget.nodeName);
-    event.currentTarget.parentNode.remove();
-}
+
 
 const zetKleurOver = (event) => {
     let swatch = document.getElementById("swatch");
@@ -60,6 +57,11 @@ const zetKleurOver = (event) => {
     document.getElementById("sldRed").value = parseInt(red);
     document.getElementById("sldGreen").value = parseInt(green);
     document.getElementById("sldBlue").value = parseInt(blue);
+}
+const verwijder = (event) => {
+    console.log("target is " + event.target.nodeName + ", currentTarget is " + event.currentTarget.nodeName);
+    event.currentTarget.parentNode.remove();
+    event.stopPropagation();
 }
 
 window.addEventListener("load", initialize);
