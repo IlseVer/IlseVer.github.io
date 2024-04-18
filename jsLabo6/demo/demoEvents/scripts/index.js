@@ -5,7 +5,6 @@ const setup = () => {
 	}	
 }
 
-
 const klik = (event) => {
 	event.target.style.color="red";
 };

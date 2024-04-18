@@ -11,22 +11,18 @@ body {
     padding-left: 10px;
     padding-top: 5px;
 }
-.card{
-    display: inline-block;
-    margin:6px;
-    cursor: pointer;
 
+.card {
+    display: inline-block;
+    margin: 6px;
+    cursor: pointer;
 }
-.back{
-    display: none;
+
+.stopKlik {
+    pointer-events: none;
 }
-.front{
-    display: none;
-}
-/*img{*/
-/*    transform: rotateY(180deg);*/
-/*}*/
-#speelveld .card img{
-    margin:0px;
-    padding: 0px;
+
+#speelveld .card img {
+    margin: 0;
+    padding: 0;
 }
