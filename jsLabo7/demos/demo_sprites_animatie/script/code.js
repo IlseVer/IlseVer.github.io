@@ -1,3 +1,4 @@
+// bepalen hoe breed het scherm is, ook al verkleind het, de smiley mag er niet buiten gaan
 let UPDATE_DELAY=50; // constante voor timer delay, in milliseconden
 let speedX;
 let speedY;
@@ -41,7 +42,12 @@ const moveSprite = () => {
 	let sprite=document.getElementsByClassName("sprite")[0];
 	let speelveld=document.getElementById("speelveld");
 	
-	let maxLeft=speelveld.clientWidth - sprite.offsetWidth;
+	let maxLeft=speelveld.clientWidth - sprite.offsetWidth;  //clientWidth en niet gewoon Width --> je krijg dan het resultaat terug zonder px, enkel het nummerieke en geen String
+	//offsetWidth// property returns the viewable width of an element
+	//(in pixels) including padding; border and scrollbar
+	//, but not the margin
+	// clientWidth property returns the viewable width of an element in pixels
+	// including padding, but not the border, scrollbar or margin
 	let maxTop=speelveld.clientHeight - sprite.offsetHeight;
 	
 	// bepaal de nieuwe positie van de sprite

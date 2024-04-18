@@ -36,8 +36,8 @@ const moveSprite = () => {
 	// verplaats de sprite
 	let left=Math.floor(Math.random()*maxLeft);
 	let top=Math.floor(Math.random()*maxHeight);
-	sprite.style.left=left+"px";
-	sprite.style.top=top+"px";
+	sprite.style.left=left+"px"; // x-as
+	sprite.style.top=top+"px";  // y-as
 }
 
 window.addEventListener("load", setup);

@@ -1,0 +1,32 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #8D99AE;
+}
+
+#speelveld {
+    width: 870px;
+    margin: 0 auto;
+    background-color: #223666;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.card{
+    display: inline-block;
+    margin:6px;
+    cursor: pointer;
+
+}
+.back{
+    display: none;
+}
+.front{
+    display: none;
+}
+/*img{*/
+/*    transform: rotateY(180deg);*/
+/*}*/
+#speelveld .card img{
+    margin:0px;
+    padding: 0px;
+}

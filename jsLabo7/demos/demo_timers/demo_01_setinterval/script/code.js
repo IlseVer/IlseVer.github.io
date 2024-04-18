@@ -3,7 +3,7 @@ let timerId=0;
 const initialize = () => {
     let btnStop=document.getElementById("btnStop");
     btnStop.addEventListener("click", stopTimer);
-    timerId=setInterval(timerTick, 1000);
+    timerId=setInterval(timerTick, 1000);  // in een variabele steken om dan in stoptimer te stoppen
 }
 
 const timerTick = () => {
@@ -12,7 +12,7 @@ const timerTick = () => {
 }
 
 const stopTimer = () => {
-    clearInterval(timerId);
+    clearInterval(timerId);   //
 }
 
 window.addEventListener("load", initialize);

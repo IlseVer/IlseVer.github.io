@@ -9,7 +9,7 @@ const initialize = () => {
 const timerTick = () => {
     let output=document.getElementById("output");
     output.innerHTML+=" tick";
-    timerId=setTimeout(timerTick, 1000);
+    timerId=setTimeout(timerTick, 1000);  //terug dezelfde functie oproepen, eigenlijk is niet de bedoeling: aangeraden om dan setInterval te gebruiiken
 }
 
 const stopTimer = () => {
