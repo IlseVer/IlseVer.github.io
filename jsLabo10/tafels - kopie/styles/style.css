@@ -1,0 +1,39 @@
+body{
+    margin:10px;
+}
+#right{
+    float: right;
+}
+#tafels{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:2em;
+    margin-top: 15px;
+    justify-items: center;
+    max-width: 1000px;
+    grid-auto-rows: min-content;
+}
+.tafel{
+    width: 300px;
+    border:1px solid #0A2A40;
+
+}
+.tafel h1{
+    background-color: #0A2A40;
+    color: white;
+    font-size: 1em;
+}
+.tafel p:nth-child(2n+1){
+    background-color: #D3D3D3;
+}
+.tafel p, .tafel h1{
+    margin:0;
+    padding:0 15px;
+}
+.tafel h1{
+    padding-top:6px;
+    padding-bottom: 8px;
+}
+tafel p{
+    font-size: 0.8em;
+}

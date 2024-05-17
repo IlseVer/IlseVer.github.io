@@ -28,7 +28,7 @@ const storeSwatches = () => {
     //bouw een array met kleurinfo objecten
     let rgbColors =[];
     let swatches = document.getElementsByClassName("swatch");
-    for (let i = 0; i < swatches.length; i++) {
+    for (let i = 1; i < swatches.length; i++) {
         let rgb = {
             red:swatches[i].getAttribute("data-red"),
             green:swatches[i].getAttribute("data-green"),
